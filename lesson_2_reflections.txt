@@ -1,0 +1,3 @@
+What happens when you initalize a repository? Why do you need to do it?
+
+Initializing a repository sets-up all the git overhead needed to properly version control the contents of the directory. To use any version control features, commiting, branching, you need to init first.

@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+If the bug was introduced since the last time the file has changed, running diff on the files will show some possible causes of the bug as the changes are the first place I would look for a recently added bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If it were easy enough to revert to older files and to switch and branch, Having previous workable code bases will make having a development copy vs working copies managable. Tracking changes and working with others would be easier as well.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Firstly, auto-saving can save mid word or mid thought and will not represent a logical change in the code. Forgetting to commit on smaller changes lead to huge chunks of code being committed counter to the goals of smaller commits. Gits changes will have a better history of working code vs the automatic changes in Google docs.
+
+Why do you think some version control sytems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperatly?
+
+Code projects usually will consist of more than one single file. For instance, our website we created for project 1 consisted of a .html and .css files, other projects like a Django setup will consist of even more files.
+
+How can you use the commands git log and git diff to view the historyh of files?
+
+To view a history of all the changes made, git log is the command for that. It will list all the different commits in order of newest at top to oldest at bottom. to view the changes between two different commits, git diff will show the changes.
+
+How might using version control make yhou more confident to make changes that could break something?
+
+If switching is as easy as it is with git, more changes would be easier to deal with
+
+Now that you have your workspace setup, what od you want to try using Git for?
+ALL THE THINGS...
+
