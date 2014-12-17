@@ -6,3 +6,10 @@ How is the staging area different from the working directory and the repository?
 
 The staging area is a subset of the working directory. The working directory contains all files in the directory, and the staging area contains files that are going to be added to the repository. The staging area will be nice to distinguish between important files needed for the repository, versus unimportant files to be left out.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+you will only need to run 'git add' on the files that pertain to the one 'logical change.'
+
+What are some situations when branches would be helpfull in keeping your history organized? How would branches help?
+
+whenever a change bigger than '1 logical change' is needed, perhaps a new functonality or test feature.
