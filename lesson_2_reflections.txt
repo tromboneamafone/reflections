@@ -1,3 +1,8 @@
 What happens when you initalize a repository? Why do you need to do it?
 
 Initializing a repository sets-up all the git overhead needed to properly version control the contents of the directory. To use any version control features, commiting, branching, you need to init first.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a subset of the working directory. The working directory contains all files in the directory, and the staging area contains files that are going to be added to the repository. The staging area will be nice to distinguish between important files needed for the repository, versus unimportant files to be left out.
+
