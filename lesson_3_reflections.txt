@@ -5,3 +5,7 @@ I would want to use a remote repository with all the code, projects, & text that
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 I imagain if there are local changes that have not been pushed, automatically trying to pull could create some code inconsistancies that need to be carefully merged.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of the other?
+
+A clone is the initial copying of the state of an online GitHub repository onto a local machine to play with. A clone is used initially to get an online repo. A fork is taking an existing repository and forking its current state in order to make changes to the repo. Forking is useful for taking a project and expanding upon it where the original author will not. Branching is like a local version of forking, it is used to make changes to a state of code without affecting a master or deployment version.
