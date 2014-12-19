@@ -9,3 +9,11 @@ I imagain if there are local changes that have not been pushed, automatically tr
 Describe the differences between forks, clones, and branches. When would you use one instead of the other?
 
 A clone is the initial copying of the state of an online GitHub repository onto a local machine to play with. A clone is used initially to get an online repo. A fork is taking an existing repository and forking its current state in order to make changes to the repo. Forking is useful for taking a project and expanding upon it where the original author will not. Branching is like a local version of forking, it is used to make changes to a state of code without affecting a master or deployment version.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+having all the latest and newest changes introduced to the code will stop duplication of work if someone else already completed a feature.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A similiar service BitBucket would be useful if not able to use GitHub. some crappier (harder) options include email, dropbox, google docs, etc.
