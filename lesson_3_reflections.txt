@@ -17,3 +17,7 @@ having all the latest and newest changes introduced to the code will stop duplic
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A similiar service BitBucket would be useful if not able to use GitHub. some crappier (harder) options include email, dropbox, google docs, etc.
+
+Why would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+changing master should be done in small increments, creating a seperate branch will allow small changes that belong to one fix to remain together in a branch until it is ready for prime time and for inclusion in master.
